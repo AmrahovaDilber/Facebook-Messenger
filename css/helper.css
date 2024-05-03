@@ -1,0 +1,20 @@
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.items-center{
+  align-items: center;
+}
+
+.font-semibold {
+  font-weight: 700;
+}
+.text-md {
+  font-size: 16px;
+ 
+}

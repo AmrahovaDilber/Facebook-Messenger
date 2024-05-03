@@ -1,0 +1,230 @@
+:root {
+  --ghostWhite: #f8f8f8;
+  --blueRibbon: #476cff;
+  --lightGray: #e2e2e2;
+  --primaryBlack: #000000;
+  --dimGray: #696969;
+  --richBlack: #212121;
+  --primaryWhite: #ffffff;
+  --bodyColor: #1e1e1e;
+}
+
+body {
+  background-color: var(--bodyColor);
+}
+html {
+  font-family: Open Sans, sans-serif;
+}
+.container {
+  width: 1400px;
+  margin: 50px auto;
+  background-color: var(--primaryWhite);
+  border-radius: 20px;
+}
+
+/* SIDEBAR DESIGN */
+.sidebar {
+  width: 200px;
+  background-color: var(--primaryWhite);
+  padding: 40px 45px 80px 49px;
+  height: 904px;
+  border-radius: 20px;
+}
+.sidebar-content {
+  height: 904px;
+}
+
+.logo {
+  margin-bottom: 65px;
+  width: 60px;
+  height: 60px;
+}
+.icon {
+  gap: 12px;
+  margin-bottom: 33px;
+  & img {
+    width: 37px;
+    height: 37px;
+  }
+  & .chat {
+    font-size: 32px;
+    color: var(--blueRibbon);
+  }
+  & span {
+    font-size: 32px;
+  }
+}
+
+.boy {
+  width: 70px;
+  height: 70px;
+}
+
+.logout {
+  width: 31.35px;
+  height: 31.42px;
+  padding: 15px;
+}
+
+.log {
+  width: 66px;
+  height: 66px;
+  border-radius: 100px;
+  background-color: var(--ghostWhite);
+}
+
+/* MIDDLE PART DESIGN */
+.main {
+  width: 432px;
+  background-color: var(--ghostWhite);
+  padding: 40px 50px;
+}
+
+.chat {
+  color: var(--richBlack);
+  font-size: 32px;
+}
+.chat-icons {
+  gap: 30px;
+  & img {
+    width: 37px;
+    height: 37px;
+  }
+}
+
+/* input design */
+.input-field {
+  background-color: var(--lightGray);
+  padding: 16px 20px;
+  border-radius: 30px;
+  margin-top: 32px;
+  margin-bottom: 49px;
+}
+.input-container {
+  gap: 15px;
+  & img {
+    width: 25px;
+    height: 25px;
+  }
+  & p {
+    color: var(--dimGray);
+  }
+}
+/* Poeple design */
+.person {
+  gap: 15px;
+
+  margin-bottom: 28px;
+  border-radius: 100px;
+  & img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+  }
+  & .name {
+    color: var(--primaryBlack);
+    margin-bottom: 10px;
+  }
+  & .content {
+    font-size: 11px;
+    color: var(--dimGray);
+  }
+}
+
+.special {
+  background-color: var(--blueRibbon);
+  & .name {
+    color: var(--primaryWhite);
+    margin-bottom: 10px;
+  }
+  & .content {
+    font-size: 11px;
+    color: var(--primaryWhite);
+    opacity: 45%;
+  }
+}
+
+/* right design */
+.right {
+  width: 600px;
+  padding: 40px 50px 25px 30px;
+}
+.right-container {
+  height: 959px;
+}
+.right-title {
+  gap: 30px;
+  & img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+  }
+  & p {
+    font-size: 32px;
+    color: var(--richBlack);
+  }
+}
+
+.right-icons {
+  gap: 40px;
+  & img {
+    width: 27px;
+    height: 27px;
+  }
+}
+.rightbox {
+  margin-bottom: 15px;
+}
+.message {
+  gap: 15px;
+  float: right;
+  & img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+  }
+}
+.message-box {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: var(--blueRibbon);
+  & p {
+    color: var(--primaryWhite);
+  }
+  & .mes2 {
+    width: 161px;
+  }
+}
+
+.girl {
+  float: left;
+}
+.girl-box {
+  background-color: #696969;
+}
+.mes {
+  width: 340px;
+}
+
+
+.right-footer{
+    gap:25px;
+    margin-top:67px;
+}
+.footer-icons{
+    gap:24px;
+    & img{
+        width:46px;
+        height:46px;
+    }
+}
+.footer-input{
+    width:200px;
+    background-color: var(--lightGray);
+    border-radius:100px;
+    padding:14px 20px;
+    & p{
+        color:var(--richBlack);
+        opacity:0.85
+    }
+}
